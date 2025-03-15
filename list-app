@@ -1,8 +1,17 @@
-<script>start("/Users/uutan/nodejs/list-app/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("node_modules","node_modules",1,3360,"3.3 kB",1740442031,"2025/02/25 9:07:11");</script>
-<script>addRow("public","public",1,96,"96 B",1741401592,"2025/03/08 11:39:52");</script>
-<script>addRow("views","views",1,128,"128 B",1741404264,"2025/03/08 12:24:24");</script>
-<script>addRow("app.js","app.js",0,393,"393 B",1741413378,"2025/03/08 14:56:18");</script>
-<script>addRow("package-lock.json","package-lock.json",0,42325,"41.3 kB",1740442031,"2025/02/25 9:07:11");</script>
-<script>addRow("package.json","package.json",0,358,"358 B",1740433018,"2025/02/25 6:36:58");</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet"
+              href = "/css/style.css">
+    </head>
+    <body>
+        <form action="/submit" method="POST">
+            <textarea name="num" rows="10">
+
+            </textarea>
+            <button type="submit">dubble</button>
+
+        </form>
+    </body>
+</html>
